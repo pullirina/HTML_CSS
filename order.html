@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Millennium Yoga</title>
+</head>
+<body style="background-color:lightcyan">
+<img src="yoga-1.gif" alt="ICON" border="1" width="80" height="105" hspace="0" vspace="0" align="left">
+<header><u><p class="d3">Millennium Yoga</p></u></header>
+
+<nav>
+	<ul class="menu">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="new.html">What's New</a></li>
+		<li><a href="multimedia.html">Multimedia</a></li>
+		<li><a href="order.html">Order</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		<li><a href="jobs.html">Jobs</a></li>
+		<li><a href="support.html">Customer Support</a></li>
+	</ul>
+</nav>
+ 
+<p>Order of Millenium Yoga </p>
+<form action="http://itu.lewebcafe.com/csc525/form.php" method="post">
+<fieldset><legend>The customer's info</legend>
+<table border="0">
+<tr>
+	<td><label for="fname">First Name </label></td>
+	<td><input type="text" name="fname" id="fname"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="flastname">Last Name </label></td>
+	<td><input type="text" name="flastname" id="flastname"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="faddress">Street address</label></td>
+	<td><input type="text" name="faddress" id="faddress"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="fcity">City </label></td>
+	<td><input type="text" name="fcity" id="fcity"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="fstate">State </label></td>
+	<td><input type="text" name="fstate" id="fstate"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="fzip">Zip code </label></td>
+	<td><input type="text" pattern="[0-9]{5}" name="fzip" id="fzip"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="fphone">Tele Phone</label></td>
+	<td><input type="tel" name="fphone" id="fphone"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="femail">Your Email</label></td>
+	<td><input type="email" name="femail" id="femail"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="fcreditcard">Credit card number (max length is 16) </label></td>
+	<td><input type="text" maxlength="16" name="fcreditcard" id="fcreditcard"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="ftype">Select list for credit card type</label></td>
+	<td><input type="text" name="ftype" id="ftype" list="card_type">
+	  	<datalist id="card_type">
+	  		<option value="Visa">
+	  		<option value="Master card">
+	  		<option value="Discover">
+	  		<option value="AmEx">
+	  	</datalist><br><br>
+	 </td>
+</tr>
+
+<tr>
+	<td><label for="expiry">Credit card expiration date (format is mm/yyyy)</label></td>
+	<td><input type="month" name="expiry" id="expiry"><br><br></td>
+</tr>
+
+<tr>
+	<td><label for="fcomments">Comments</label></td>
+	<td><textarea name="fcomments" rows="5" cols="30"></textarea></td>
+</tr>
+
+
+</table>
+</fieldset>
+</form>
+
+<form action="http://itu.lewebcafe.com/csc525/form.php" method="post">
+<table border="1" cellspacing="4" cellpadding="1">
+<th>Category</th>
+<th>Description</th>
+<th>Unit Price</th>
+<th>Quantity</th>
+<th>Total Price</th>
+<tr>
+	<td rowspan="2">1</td>
+	<td>Yoga mat</td>
+	<td>$10</td>
+	<td><input type="number" name="yogamatQ" id="yogamatQ" min="0"></td>
+	<td><input type="text" name="yogamatTP" id="yogamatTP"></td>
+</tr>
+
+<tr>
+	<td>Yoga pant</td>
+	<td>$10</td>
+	<td><input type="number" name="yogapantQ" id="yogapantQ" min="0"></td>
+	<td><input type="text" name="yogapantTP" id="yogapantTP"></td>
+</tr>
+
+<tr>
+	<td colspan="4" align="right">Sub Total$</td>
+	<td><input type="text" name="subtotal" id="subtotal"></td>
+</tr>
+
+<tr>
+	<td rowspan="2">2</td>
+	<td>Yoga water bottle</td>
+	<td>$20</td>
+	<td><input type="number" name="yogabottleQ" id="yogabottleQ" min="0"></td>
+	<td><input type="text" name="yogabottleTP" id="yogabottleTP"></td>
+</tr>
+
+<tr>
+	<td>Yoga mat carry bag</td>
+	<td>$50</td>
+	<td><input type="number" name="yogabagQ" id="yogapantQ" min="0"></td>
+	<td><input type="text" name="yogabagTP" id="yogabagTP"></td>
+</tr>
+
+<tr>
+	<td colspan="4" align="right">Sub Total$</td>
+	<td><input type="text" name="subtotal" id="subtotal"></td>
+</tr>
+
+<tr>
+	<td colspan="4" align="right">Total$</td>
+	<td><input type="text" name="total" id="total"></td>
+</tr>
+
+<tr>
+<td colspan="5" align="center"><input type="submit" name="SubmitButton" value="Submit">  <input type="reset" name="ResetButton" value="Reset"></td>
+</tr>
+
+</table>
+</form>
+
+<nav>
+	<ul class="menu">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="new.html">What's New</a></li>
+		<li><a href="multimedia.html">Multimedia</a></li>
+		<li><a href="order.html">Order</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+		<li><a href="jobs.html">Jobs</a></li>
+		<li><a href="support.html">Customer Support</a></li>
+	</ul>
+</nav>
+<footer>
+  <p>© 2019 Millennium Yoga (a subsidiary of Millennium Mantra, Inc.)</p>
+</footer>
+</body>
+</html>

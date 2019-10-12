@@ -1,0 +1,93 @@
+
+.flex-container {
+  display: flex;
+  background-color: cornsilk;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 80px;
+  font-size: 30px;
+}
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: left;
+}
+#customer_review_section {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  background: white;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  
+  flex-direction: column;  
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: left;
+
+  flex: 1; 
+}
+
+#box{
+  -moz-flex: 1;
+  -webkit-flex: 1;
+  flex: 1; 
+  background: floralwhite;
+ 
+}
+body{
+	background-color: white;
+}
+h3:first-letter  {
+   font-size: 2em;
+   color: red;
+}
+header {
+	-moz-border-radius: 40px; /* Firefox */
+	-webkit-border-radius: 40px; /* Safari 4 and earlier */
+	border-radius: 40px; /* Opera, Chrome, Safari 5, IE 9 */
+    border-color: brown coral;
+    border-width: 5px 5px;
+    border-style: ridge groove outset;
+    background-color: lightsalmon;
+    margin: 5px 10px 5px 4px;
+    padding: 8px 15px;
+    font-size: 2em; 
+    text-align: center;
+    font-family: 'Algerian';
+}
+.first{
+	background-color: pink;
+	display:block;
+	width: 680px;
+	height:380px;
+	margin: -60px;
+	padding: 10px;
+	font-size:15px;
+	box-shadow: 10px 10px 20px 5px #fff;
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:normal; /* Firefox */
+	-webkit-column-gap:normal; /* Safari and Chrome */
+	column-gap:normal;
+	color: rgba(0, 10, 50, 0.80);
+	background: -webkit-linear-gradient(top, #FFFFFF, #FFE4C4);/* Safari 4 and earlier */
+	background: -moz-linear-gradient(top, #FFFFFF, #FFE4C4);/* Firefox */
+	background: linear-gradient(top, #FFFFFF, #FFE4C4);/* Opera, Chrome, Safari 5, IE 9 */
+}
+ul li:first-child { color: blue; }
+ul li:last-child {font-style: italic; color: coral;}
+section p{
+	font-size: 1.2em; 
+}
+@media only screen and (max-width:900px) {
+  body {
+    background-color: #FFEFD5;
+  }
+}
